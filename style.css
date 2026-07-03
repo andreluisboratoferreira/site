@@ -1,3 +1,12 @@
 body {
-    background: url(/img/fundo.jpeg);
+    background: url(/img/fundo.jpeg) no-repeat;
+    margin: 0px 0px;
+    background-size: 100%;
+}
+
+button {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 50%;
 }
